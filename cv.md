@@ -1,4 +1,4 @@
-# [rsschool-cv](https://Ruper23.github.io/rsschool-cv/cv)
+# [rsschool-cv](https://ruper23.github.io/rsschool-cv/cv)
 
 
 # Vitali Skarbinski
