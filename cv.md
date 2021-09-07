@@ -50,7 +50,7 @@ ________________________________________________________________________________
 
 
 ### Experience
-_A little experience in the development of several single-page sites_
+_A little experience in the development of several single-page sites_<br>
 _I have been working in woodworking for 9 years in position CNC Programmer,
 with languges G-code and Basic_
 
