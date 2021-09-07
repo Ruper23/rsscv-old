@@ -9,7 +9,7 @@ _______________________________________________________________________________
  * Tel: +375 29 868 94 74
  * Email: sfc-ruper@mail.ru
  * Discord : Ruper#8847
- * Skype : ruper292
+ * Skype : ruper292 <br>
 _______________________________________________________________________________
 
 ### About myself:
@@ -49,7 +49,7 @@ with languges G-code and Basic_
 
 ________________________________________________________________________________
 ### English 
-_I'm Study every day at a mobile apps and Listening audio lessons_
+_I'm Study every day at a mobile apps and Listening audio lessons_<br>
 _Pre-Intermediate (CEFR A2+)_
 
 ________________________________________________________________________________
