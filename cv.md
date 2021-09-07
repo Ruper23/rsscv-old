@@ -9,7 +9,7 @@ _______________________________________________________________________________
  * Tel: +375 29 868 94 74
  * Email: sfc-ruper@mail.ru
  * Discord : Ruper#8847
-
+ * Skype : ruper292
 _______________________________________________________________________________
 
 ### About myself:
@@ -44,10 +44,12 @@ ________________________________________________________________________________
 
 ### Experience
 _A little experience in the development of several single-page sites_
-
+_I have been working in woodworking for 9 years in position CNC Programmer,
+with languges G-code and Basic_
 
 ________________________________________________________________________________
 ### English 
-_A2_
+_I'm Study every day at a mobile apps and Listening audio lessons_
+_Pre-Intermediate (CEFR A2+)_
 
 ________________________________________________________________________________
