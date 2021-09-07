@@ -50,15 +50,15 @@ ________________________________________________________________________________
 
 
 ### Experience
-_A little experience in the development of several single-page sites_<br>
+_A little experience in the development of several single-page sites._<br>
 _I have been working in woodworking for 9 years in position CNC Programmer,
-with languges G-code and Basic_
+with languges G-code and Basic._
 
 ________________________________________________________________________________
 
 
 ### English 
-_I'm Study every day at a mobile apps and Listening audio lessons_<br>
-_Pre-Intermediate (CEFR A2+)_
+_I'm Study every day at a mobile apps and Listening audio lessons._<br>
+_Pre-Intermediate (CEFR A2+)._
 
 ________________________________________________________________________________
