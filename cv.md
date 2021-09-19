@@ -58,11 +58,11 @@ ________________________________________________________________________________
 
 
 ### Education
-Specialized secondary education
+_Specialized secondary education_
 
 ### Courses
-Geekbrains HTML&CSS course
-GLO Academy Free courses
+_Geekbrains HTML&CSS course_<br>
+_GLO Academy Free courses_
 ________________________________________________________________________________
 
 
