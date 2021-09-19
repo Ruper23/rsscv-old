@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "cv-font";
+  src: url("../fonts/cv-font.eot?5w0ash");
+  src: url("../fonts/cv-font.eot?5w0ash#iefix") format("embedded-opentype"),
+    url("../fonts/cv-font.ttf?5w0ash") format("truetype"), url("../fonts/cv-font.woff?5w0ash") format("woff"),
+    url("../fonts/cv-font.svg?5w0ash#cv-font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "cv-font" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-travel:before {
+  content: "\e905";
+}
+.icon-graffiti:before {
+  content: "\e906";
+}
+.icon-basketball-ball:before {
+  content: "\e907";
+}
+.icon-git:before {
+  content: "\e904";
+}
+.icon-family:before {
+  content: "\e900";
+}
+.icon-game:before {
+  content: "\e901";
+}
+.icon-movie:before {
+  content: "\e902";
+}
+.icon-music:before {
+  content: "\e903";
+}
