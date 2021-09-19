@@ -57,6 +57,15 @@ with languges G-code and Basic._
 ________________________________________________________________________________
 
 
+### Education
+Specialized secondary education
+
+### Courses
+Geekbrains HTML&CSS course
+GLO Academy Free courses
+________________________________________________________________________________
+
+
 ### English 
 _I'm Study every day at a mobile apps and Listening audio lessons._<br>
 _Pre-Intermediate (CEFR A2+)._
