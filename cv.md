@@ -61,7 +61,7 @@ ________________________________________________________________________________
 Specialized secondary education
 
 ### Courses
-Geekbrains HTML&CSS course
+Geekbrains HTML&CSS course<br>
 GLO Academy Free courses
 ________________________________________________________________________________
 
