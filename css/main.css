@@ -68,15 +68,6 @@ body {
    position: relative;
    color: var(--title-color);
 }
-.name:before {
-   content: "";
-   position: absolute;
-   bottom: 25%;
-   left: 25%;
-   width: 50%;
-   height: 1px;
-   background: var(--title-color);
-}
 
 /*============================aside=============================*/
 .content {
@@ -392,9 +383,6 @@ body {
    .name {
       margin: 15px 0 0 0;
       font-size: 15px;
-   }
-   .name:before {
-      height: 0;
    }
    .photo {
       width: 130px;
