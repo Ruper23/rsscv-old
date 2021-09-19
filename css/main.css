@@ -219,6 +219,20 @@ body {
    color: #e8e8db;
    font-family: "Abel", sans-serif;
 }
+.aside-title {
+   margin: 20px 0 0 40px;
+   font-size: 25px;
+   font-style: initial;
+   padding: 10px 0;
+   color: #ffdf65;
+   font-family: "Lato", sans-serif;
+}
+.aside-text {
+   font-size: 16px;
+   padding: 0 15px;
+   color: #e8e8db;
+   font-family: "Abel", sans-serif;
+}
 .code__text {
    font-size: 16px;
    font-style: italic;
@@ -347,6 +361,15 @@ body {
       font-size: 15px;
       padding: 0 15px;
    }
+   .aside-title {
+      margin: 8px 0 0 40px;
+      font-size: 18px;
+      padding: 5px 0;
+   }
+   .aside-text {
+      font-size: 13px;
+      padding: 0 15px;
+   }
    .code__title {
       width: 50px;
    }
@@ -368,9 +391,7 @@ body {
       font-size: 35px;
    }
 }
-/* ===================600========================== */
-@media (max-width: 599px) {
-}
+
 /*====================530===========================*/
 @media (max-width: 530px) {
    .container {
@@ -418,6 +439,15 @@ body {
    }
    .contact-aside:first-child {
       margin: 20px 0 0 0;
+   }
+   .aside-title {
+      margin: 8px 0 0 40px;
+      font-size: 20px;
+      padding: 8px 0;
+   }
+   .aside-text {
+      font-size: 15px;
+      padding: 0 15px;
    }
    .hobbies {
       width: 100%;
