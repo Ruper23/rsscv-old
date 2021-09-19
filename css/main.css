@@ -1,0 +1,466 @@
+:root {
+   --main-bg-color: #494846;
+   --sec-bg-color: #858377;
+   --third-bg-color: #636057;
+   --title-color: #ffdf65;
+   --text-color: #e8e8db;
+}
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap");
+* {
+   margin: 0;
+   padding: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+   padding: 0;
+   margin: 0;
+}
+html,
+body {
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   background-color: var(--main-bg-color);
+   box-sizing: border-box;
+}
+.wrapper {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+.container {
+   max-width: 1200px;
+   min-height: 100%;
+   margin: 0 auto;
+}
+.header {
+   width: 100%;
+   min-height: 320px;
+   background-color: var(--sec-bg-color);
+   display: flex;
+   flex-direction: column;
+}
+.myself {
+   margin: 5px 0 0 0;
+   display: flex;
+   width: 100%;
+}
+.photo {
+   width: 300px;
+   background: var(--sec-bg-color);
+}
+.photo img {
+   width: 100%;
+   position: relative;
+   top: 5px;
+}
+.name {
+   margin: 25px 0 0 0;
+   text-align: center;
+   flex: 1 1 auto;
+   font-size: 40px;
+   font-family: "Lato", sans-serif;
+   position: relative;
+   color: var(--title-color);
+}
+.name:before {
+   content: "";
+   position: absolute;
+   bottom: 25%;
+   left: 25%;
+   width: 50%;
+   height: 1px;
+   background: var(--title-color);
+}
+
+/*============================aside=============================*/
+.content {
+   width: 100%;
+   min-height: 100%;
+   display: flex;
+   flex: 1 1 auto;
+   box-shadow: 0 0 50px 1px #636057;
+}
+.aside {
+   min-width: 300px;
+   background: var(--third-bg-color);
+}
+.my-contacts,
+.my-skills,
+.education,
+.hobbies {
+   min-height: 230px;
+   max-width: 300px;
+   border-bottom: 1px solid var(--text-color);
+   display: flex;
+   flex-direction: column;
+}
+
+.contact-aside {
+   font-size: 20px;
+   margin: 0 0 0 20px;
+   padding: 2px 0;
+   color: var(--text-color);
+}
+.contact-aside:first-child {
+   margin: 50px 0 0 20px;
+}
+.my-skills {
+   justify-content: space-around;
+}
+.skill-html__title,
+.skill-css__title,
+.skill-js__title,
+.skill-ps__title {
+   display: flex;
+   font-size: 26px;
+   margin: 10px 0 0 20px;
+   color: var(--title-color);
+}
+.skill-html,
+.skill-css,
+.skill-js,
+.skill-ps {
+   display: flex;
+   justify-content: space-between;
+}
+.skill-ps {
+   margin: 0 0 5px 0;
+}
+.skill-html__progress,
+.skill-css__progress,
+.skill-js__progress,
+.skill-ps__progress {
+   margin: 5px 30px 0 0;
+}
+.skill-html__progress span,
+.skill-css__progress span,
+.skill-js__progress span,
+.skill-ps__progress span {
+   position: relative;
+   display: inline-block;
+   margin: 10px 11px;
+}
+.skill-html__progress span:after,
+.skill-css__progress span:after,
+.skill-js__progress span:after,
+.skill-ps__progress span:after {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   margin: 0 3px;
+   width: 15px;
+   height: 20px;
+   background: #000;
+   box-shadow: 0 0 3px 1px #ffdf65;
+}
+.skill-css span:nth-child(5):after,
+.skill-css span:nth-child(4):after {
+   background: #fff;
+   box-shadow: 0 0 3px #000 inset;
+}
+.skill-html span:last-child:after {
+   background: #fff;
+   box-shadow: 0 0 3px #000 inset;
+}
+.skill-js span:nth-child(3):after,
+.skill-js span:nth-child(4):after,
+.skill-js span:nth-child(5):after {
+   background: #fff;
+   box-shadow: 0 0 3px #000 inset;
+}
+.skill-ps span:last-child:after {
+   background: #fff;
+   box-shadow: 0 0 3px #000 inset;
+}
+.hobbies-icons {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 0 0 15px;
+}
+.hobbies-icon {
+   margin: 10px 20px;
+   font-size: 50px;
+   text-shadow: 0 0 3px #000;
+   color: var(--title-color);
+}
+
+/*==========================main==========================*/
+.main {
+   width: 100%;
+}
+.about-myself,
+.code,
+.expirience,
+.english {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   min-height: 230px;
+   border-bottom: 0.5px solid var(--text-color);
+}
+.hobbies,
+.english {
+   border: none;
+}
+.about-myself > ._text,
+.expirience > ._text,
+.english > ._text {
+   margin: 20px 0 0 0;
+}
+._title {
+   margin: 0 0 0 40px;
+   font-size: 30px;
+   font-style: initial;
+   padding: 10px 0;
+   color: #ffdf65;
+   font-family: "Lato", sans-serif;
+}
+._text {
+   font-size: 20px;
+   padding: 0 15px;
+   color: #e8e8db;
+   font-family: "Abel", sans-serif;
+}
+.code__text {
+   font-size: 16px;
+   font-style: italic;
+}
+/*======================footer=========================*/
+.footer {
+   width: 100%;
+   height: 60px;
+   background-color: var(--sec-bg-color);
+   border-top: 0.5px solid var(--text-color);
+   font-family: "Lato", sans-serif;
+}
+.footer-block {
+   display: flex;
+   justify-content: space-around;
+}
+.github {
+   width: 50px;
+   height: 50px;
+   display: flex;
+   align-self: center;
+}
+.github img {
+   width: 100%;
+   height: 100%;
+}
+.year {
+   font-size: 20px;
+   line-height: 60px;
+}
+.location {
+   font-size: 20px;
+   line-height: 60px;
+}
+.rsschool {
+   width: 60px;
+   height: 60px;
+}
+.rsschool img {
+   width: 100%;
+   height: 100%;
+}
+/*========================media=====================*/
+@media (max-width: 900px) {
+   .name {
+      margin: 90px 0 0 0;
+      font-size: 30px;
+   }
+}
+@media (max-width: 768px) {
+   .container {
+      width: 100%;
+   }
+   .header {
+      width: 100%;
+      min-height: 220px;
+   }
+   .name {
+      margin: 60px 0 0 0;
+      font-size: 20px;
+   }
+   .photo {
+      width: 200px;
+      background: var(--sec-bg-color);
+   }
+   .photo img {
+      width: 100%;
+      position: relative;
+      top: 5px;
+   }
+
+   .aside {
+      min-width: 200px;
+   }
+   .my-contacts,
+   .my-skills,
+   .education,
+   .hobbies {
+      min-height: 157px;
+   }
+   .contact-aside {
+      font-size: 15px;
+      margin: 0 0 0 20px;
+   }
+   .contact-aside:first-child {
+      margin: 20px 0 0 20px;
+   }
+   .skill-html__title,
+   .skill-css__title,
+   .skill-js__title,
+   .skill-ps__title {
+      font-size: 18px;
+      margin: 10px 0 0 20px;
+   }
+   .skill-html__progress span,
+   .skill-css__progress span,
+   .skill-js__progress span,
+   .skill-ps__progress span {
+      margin: 5px 6px;
+   }
+   .skill-html__progress span:after,
+   .skill-css__progress span:after,
+   .skill-js__progress span:after,
+   .skill-ps__progress span:after {
+      width: 10px;
+      height: 15px;
+      margin: 0 1px;
+   }
+   .about-myself,
+   .code,
+   .expirience,
+   .english {
+      min-height: 157px;
+   }
+   .code {
+      display: flex;
+      flex-wrap: wrap;
+      max-height: 130px;
+   }
+   ._title {
+      margin: 0 0 0 15px;
+      font-size: 20px;
+      padding: 5px 0;
+   }
+   ._text {
+      font-size: 15px;
+      padding: 0 15px;
+   }
+   .code__title {
+      width: 50px;
+   }
+   .about-myself > ._text,
+   .expirience > ._text,
+   .english > ._text {
+      margin: 10px 0 0 0;
+   }
+   .code__text {
+      margin: 0;
+      max-width: 250px;
+      font-size: 12px;
+   }
+   .hobbies-icons {
+      margin: 0 0 0 20px;
+   }
+   .hobbies-icon {
+      margin: 10px 10px;
+      font-size: 35px;
+   }
+}
+/* ===================600========================== */
+@media (max-width: 599px) {
+}
+/*====================530===========================*/
+@media (max-width: 530px) {
+   .container {
+      width: 100%;
+   }
+   .header {
+      width: 100%;
+      min-height: 150px;
+   }
+   .name {
+      margin: 15px 0 0 0;
+      font-size: 15px;
+   }
+   .name:before {
+      height: 0;
+   }
+   .photo {
+      width: 130px;
+      background: var(--sec-bg-color);
+   }
+   .photo img {
+      width: 100%;
+      position: relative;
+      top: 5px;
+      border-radius: 50%;
+   }
+   .content {
+      display: flex;
+      flex-direction: column;
+      background: var(--third-bg-color);
+      box-shadow: none;
+   }
+   .aside {
+      min-width: 200px;
+      margin: 0 auto;
+   }
+   .my-contacts,
+   .my-skills,
+   .education,
+   .hobbies {
+      min-height: 157px;
+   }
+
+   .contact-aside {
+      font-size: 20px;
+      text-align: center;
+      margin: 0;
+   }
+   .contact-aside:first-child {
+      margin: 20px 0 0 0;
+   }
+   .hobbies {
+      width: 100%;
+      margin: 0 auto;
+   }
+
+   .hobbies-icon {
+      margin: 10px 20px;
+      font-size: 40px;
+   }
+   .code__text {
+      margin: 0;
+      font-size: 11px;
+   }
+   .footer {
+      height: 40px;
+   }
+   .github {
+      width: 30px;
+      height: 30px;
+   }
+   .year {
+      font-size: 15px;
+      line-height: 40px;
+   }
+   .location {
+      font-size: 15px;
+      line-height: 40px;
+   }
+   .rsschool {
+      width: 50px;
+      height: 30px;
+   }
+}
