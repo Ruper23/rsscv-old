@@ -30,6 +30,7 @@ ________________________________________________________________________________
 * CSS
 * JavaScript (basic)
 * Photoshop
+* Figma
 
 ________________________________________________________________________________
 
@@ -62,7 +63,9 @@ Specialized secondary education
 
 ### Courses
 Geekbrains HTML&CSS course<br>
-GLO Academy Free courses
+GLO Academy Free courses<br>
+WayUp : Javascript course<br>
+WayUp : Disign in Figma<br>
 ________________________________________________________________________________
 
 
